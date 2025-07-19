@@ -1,0 +1,59 @@
+### 🧠 What is Supervised Learning?
+
+Supervised learning is when we teach a machine using **labeled data**. That means each example in the training set includes both:
+
+* **Inputs** (features), and
+* **Outputs** (the correct answer or label)
+
+The model learns to map inputs to outputs by finding patterns in the labeled data.
+
+---
+
+### 🎓 Real-Life Analogy:
+
+Imagine you're learning math from a teacher. The teacher gives you:
+
+* A problem: `2 + 2`
+* The correct answer: `4`
+
+Over time, by practicing many problems and seeing the answers, you learn the rule. Later, when someone gives you `3 + 5`, you can correctly say `8`.
+
+That’s how supervised learning works!
+
+---
+
+### ⚙️ How it Works (Simplified Steps):
+
+1. **Collect labeled data** (e.g., photos of animals with labels like "cat", "dog")
+2. **Train a model** on that data
+3. **Test the model** with new, unlabeled data to see how well it predicts
+
+---
+
+### 🔍 Two Main Types:
+
+1. **Classification** – when the output is a **category**
+   👉 Example: Email → "spam" or "not spam"
+
+2. **Regression** – when the output is a **number**
+   👉 Example: Predicting house prices based on size, location, etc.
+
+---
+
+### 🧪 Example:
+
+| Features (Input)          | Label (Output) |
+| ------------------------- | -------------- |
+| \[5 bedrooms, 2000 sq ft] | \$500,000      |
+| \[3 bedrooms, 1200 sq ft] | \$300,000      |
+| \[2 bedrooms, 800 sq ft]  | \$200,000      |
+
+You feed this data to the model. Later, you give it:
+
+> \[4 bedrooms, 1500 sq ft]
+> And it predicts:
+> \$400,000
+
+---
+
+Would you like to try a small hands-on example or code snippet to see how it works?
